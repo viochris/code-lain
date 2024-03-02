@@ -17,6 +17,9 @@ print(v)
 m <- matrix(c(1,2,3,4,5,6), nrow = 3, ncol = 2)
 print(m)
 
+m <- array(c(1,2,3,4,5,6), dim= c(3,2))
+print(m)
+
 lst <- list(a=2, b=3, c=4)
 print(lst)
 

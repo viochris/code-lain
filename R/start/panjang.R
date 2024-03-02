@@ -10,6 +10,9 @@ df = data.frame(
 )
 print(df)
 print(length(df))
+print(nrow(df))
+print(ncol(df))
+
 
 for (i in 1:5){
     for (j in 1:4){
