@@ -44,6 +44,13 @@ for (i in 1:7) {
     print(sprintf("perulangan ke-%i", i))
 }
 
+for (i in seq(1,5,2)){
+    print(paste('makanan ke-', i))
+}
+
+for (i in seq(1,5,2)){
+    print(sprintf('makanan ke-%i', i))
+}
 
 i <- 1
 while (i<=5){
